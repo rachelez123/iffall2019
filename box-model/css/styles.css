@@ -1,0 +1,73 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif
+
+
+}
+
+h1 {
+	margin: 0 0 1px 0;
+	font-size: 80px;
+
+}
+
+h2{ margin: 0 0 10px 0;
+	font-size: 30px;
+
+ }
+
+h3 {
+	margin: 0 0 32px 0;
+	text-align: center;
+	font-size: 40px;
+
+}
+
+p {
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: -.4px;
+	line-height: 24px /* 2 is double space and 1 is single spaced if thinking about it like a word doc if doing it with no px*/
+}
+
+header {
+	background-color: rgba(255, 0, 0,.5);
+	font-family: 'Archivo Narrow', sans-serif;
+	text-align: center;
+	color: rgb(255,69,0);
+	padding: 150px 0 162px 0;
+	background-image: url("../images/buddy.jpg"); 
+	background-size: contain; /*or cover*/
+	background-position: 2px  center;
+	/*background-repeat: no-repeat;*/
+
+}
+section > div {
+	width: 800px;
+	background-color: rgba(0,255,255,.5);
+	margin: auto; /*makes left and right margins equal*/
+	padding: 50px 0 0 0;
+	width: 960px;
+	background-color: lightpink
+}
+
+section.section_one {
+	background-color: rgba(0,255,0,.5);
+	background-color: lightpink
+
+
+}
+
+
+.section_one img{
+	float: right;
+	width: 400px;
+	height: 300px;
+	margin-left: 28px;
+	margin-bottom: 37;
+
+}
+
+section.section_three {
+	margin: 0 0 32px 0;
+	text-align: center;
+	font-size: 40px;
