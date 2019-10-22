@@ -16,11 +16,13 @@ img#img_header {
 
 section.intro {
 	width: 400px;
+
 	padding-top: 10px;
 	box-sizing: border-box;
 	height: auto;
 	display: block;
 	margin-bottom: 0px;
+	font-weight: 900px;
 }
 
 img#img_first {
