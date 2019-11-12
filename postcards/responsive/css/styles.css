@@ -1,0 +1,175 @@
+html,
+body {
+	height: 100%;
+
+}
+
+a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+
+}
+
+
+.card1 {
+
+	background-image: url(../images/earth.jpg);
+	background-size: cover;
+	background-position: center center;
+	margin: 0;
+
+
+
+}
+
+
+.card1 h1 {
+
+	color: white;
+	text-align: center;
+	line-height: 100px;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 40pt;
+	position: absolute;
+	bottom: 10%;
+	padding: 10%;
+	top: 2px;
+
+
+}
+
+.card1 h2 {
+
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	size: 10pt;
+	position: absolute;
+	bottom: 10%;
+	padding: 10%;
+	margin-left: 20%;
+	font-family: 'Big Shoulders Text', cursive;
+
+}
+
+
+@media (max-width: 1041px) {
+	.card1 h1{ background-position: center center;
+		font-size: 20pt;
+		padding-top: -2px;
+		line-height: 50px;
+		
+
+	 }
+
+	
+
+}
+
+
+
+
+
+
+.card2 {
+
+	background-image: url(../images/pluto.jpg);
+	background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	margin: 0;
+
+}
+
+.card2 h1 {
+
+	color: white;
+	text-align: center;
+	font-size: 20pt;
+	line-height: 100px;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 40pt;
+	position: absolute;
+	bottom: 10%;
+	padding: 10%;
+
+}
+
+.card2 h2 {
+
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	size: 5pt;
+	position: absolute;
+	bottom: 3%;
+	padding: 10%;
+	margin-left: 40%;
+	font-family: 'Big Shoulders Text', cursive;
+
+}
+
+@media (max-width: 1041px) {
+	.card2 h1{ background-position: center center;
+		font-size: 25pt;
+		line-height: 120px;
+		padding-top: 7px;
+
+	 }
+
+}
+
+
+.card3 {
+
+	background-image: url(../images/moon.jpg);
+	background-size: cover;
+
+}
+
+.card3 h1 {
+
+	color: white;
+	text-align: center;
+	line-height: 100px;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 40pt;
+	position: absolute;
+	margin-bottom: 90;
+	padding: 10%;
+	top: 1px;
+
+}
+
+.card3 h2 {
+
+	color: white;
+	text-align: center;
+	size: 10pt;
+	background-position: center center;
+	position: absolute;
+	bottom: 40%;
+	font-family: 'Big Shoulders Text', cursive;
+	margin-left: 47%;
+
+}
+
+
+@media (max-width: 996px) {
+	.card3 h1{ background-position: center center;
+		font-size: 25pt;
+		line-height: 120px;
+		top: 2px;
+	 }
+	 .card3 h2 {
+
+	 	font-size: 12pt;
+	 	bottom: 10%;
+
+	 }
+
+}
