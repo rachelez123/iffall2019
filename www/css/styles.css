@@ -1,0 +1,205 @@
+body {
+  /*min-width: 1200px;*/
+  margin: auto;
+  overflow-x: hidden;
+
+}
+header {
+  color: red;
+  font-family: imperial-urw, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 80pt;
+  margin-left: 10%;
+}
+
+header > a {
+text-decoration: none;
+}
+h1 {
+  color: #ed2224;
+  margin-top: 50px;
+  color: red;
+  font-family: imperial-urw, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+
+
+h1 a{ 
+
+text-decoration: none;
+ }
+
+
+
+nav {
+  color: black;
+  font-family: liquor-store, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22pt;
+  margin-left: 10%;
+  margin-bottom: 12px;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+nav a.active{
+  text-decoration: underline;
+
+
+}
+
+nav a {
+  margin-right: 12px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+
+}
+
+nav a:visited{
+
+  color: black;
+}
+
+
+.containMembers p {
+
+  text-indent: 0;
+}
+main {
+  font-family: interstate, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  max-width: 1200px;
+  margin-left: 10%;
+  position: relative;
+}
+
+p {
+  text-indent: 2em;
+}
+ #type {
+  margin-right: 45%; 
+
+ }
+
+#group {
+  position: center;
+  object-fit: cover;
+  top: 95%;
+  left: 50%;
+  width: 100%;
+ }
+main #exobackground {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  width: 100%;
+
+}
+
+a:visited {
+  color: red;
+
+
+}
+
+.active {
+  columns: red;
+  text-decoration: none;
+}
+
+.containMembers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -20px;
+}
+
+.members {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.membersRow2 {
+  margin-left: 200px;
+
+
+}
+
+.imgContain {
+  width: 200px;
+  max-height: 300px;
+  position: relative;
+
+}
+
+.imgContain p {
+  opacity: 0;
+  color: white;
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  transition: all 0.2s ease-in;
+}
+
+.imgContain:hover p {
+  opacity: 1;
+  bottom: 25px;
+  text-align: center;
+}
+
+.members-img {
+  width: 100%;
+  height: auto;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.members-img:hover {
+  filter: brightness(50%);
+}
+
+#center {
+
+ position: center;
+  object-fit: cover;
+  top: 95%;
+  left: 50%;
+  width: 100%;
+}
+
+.bigexo {
+  width: 500px;
+  
+  top: 80px;
+  right: 0%;
+  position:fixed;
+
+}
+
+@media (max-width: 1100px) {
+
+  .bigexo {display: none}
+
+}
+
+.bigexo img {
+  width: 100%;
+
+  bottom:0;
+/* margin-left: 100px:*/
+}
+
